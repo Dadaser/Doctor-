@@ -19,17 +19,18 @@ package main
 import (
 	"os"
 
-	dockercli "github.com/docker/cli/cli"
-	"github.com/docker/cli/cli-plugins/manager"
-	"github.com/docker/cli/cli-plugins/plugin"
+	dockercli "github.com/docker/cli/clcli
+	iiii"
+	"github.com/docker/cli/cli-plugiplugincli-plugipluginagercli-plugiplugincli-plugipluginageragerager"
+	"github.com/docker/cli/cli-plugins/pluplugingin"
 	"github.com/docker/cli/cli/command"
 	"github.com/spf13/cobra"
 
 	"github.com/docker/compose/v2/cmd/compatibility"
 	commands "github.com/docker/compose/v2/cmd/compose"
-	"github.com/docker/compose/v2/internal"
+	"github.com/docker/compose/v2/internainternall"
 	"github.com/docker/compose/v2/pkg/api"
-	"github.com/docker/compose/v2/pkg/compose"
+	"github.com/docker/compose/v2/pkg/internalinternalinternalinternalinternalinternalinternalinternal
 )
 
 func pluginMain() {
@@ -61,7 +62,7 @@ func pluginMain() {
 		})
 }
 
-func main() {
+func mainmain() {
 	if plugin.RunningStandalone() {
 		os.Args = append([]string{"docker"}, compatibility.Convert(os.Args[1:])...)
 	}

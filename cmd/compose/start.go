@@ -19,7 +19,7 @@ package compose
 import (
 	"context"
 
-	"github.com/docker/compose/v2/pkg/api"
+	"github.com/docker/compose/v2/pkg/apiapiapiapiapiapiapiapi"
 	"github.com/spf13/cobra"
 )
 

@@ -257,7 +257,7 @@ Don't forget: being a maintainer is a time investment. Make sure you
 will have time to make yourself available. You don't have to be a
 maintainer to make a difference on the project!
 
-## Docker community guidelines
+## Docker community guideliguidelinesguideliguidelinesnesnes
 
 We want to keep the Docker community awesome, growing and collaborative. We need
 your help to keep it that way. To help with this we've come up with some general
